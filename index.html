@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nusantara Cuisine</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Nusantara<br>Cuisine<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonals</a></li>
+            <li><a href="#contanct">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus consectetur veritatis nostrum eum, nemo distinctio. Dignissimos autem velit dolorum? Numquam architecto facere vitae porro odit unde corporis accusamus est sunt.</P>
+            <a href="" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col150">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatem facilis omnis sunt hic rem impedit, optio, quas ad numquam odit. Aspernatur accusantium nemo placeat natus, repellat reprehenderit. Mollitia, rerum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea labore inventore accusantium quod at asperiores vel impedit nam, enim assumenda rem non magni, quis tempora consectetur provident? Beatae, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam cumque, vero modi architecto explicabo, rem magnam optio ipsa quasi alias ratione deserunt velit dolores esse porro ex voluptatibus fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius aliquid quam possimus qui laudantium molestias architecto quod. Alias sapiente voluptas nulla dolor expedita velit at repellendus, pariatur excepturi quos?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum maxime quae tenetur ab tempore obcaecati rem veritatis odit, voluptates eius tempora, excepturi nobis dolorem ex, eligendi blanditiis sint nihil!Loremlorem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officiis a dolorem sint magnam. Suscipit eos itaque delectus, neque eaque, nemo nostrum optio nam illum laudantium consectetur nulla tenetur dolore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda aspernatur doloremque, voluptate blanditiis maiores porro eius nam autem reprehenderit ea neque placeat. Quasi excepturi amet nisi quisquam ullam deserunt minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur aspernatur voluptatem molestiae itaque cum incidunt voluptatibus delectus, provident maiores facere aperiam commodi, illum quas fugiat rerum cupiditate, consectetur laborum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi at eos quasi tempore voluptas ipsa laborum deserunt rem possimus id in, incidunt accusamus. Eaque vel pariatur molestias voluptas consequuntur praesentium.
+                </p>
+            </div>
+            <div class="col150">
+                <div class="imgBx">
+                    <img src="img/img1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>emu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod similique laboriosam possimus impedit debitis excepturi aliquid consequatur pariatur quasi, iste facilis maxime incidunt eaque voluptatem quis sed fuga saepe?</p>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Soup</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Pasta</h3>
+                </div>
+            </div>
+
+            <div class="title">
+                <a href="#" class="btn">Viewe All</a>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('Header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
